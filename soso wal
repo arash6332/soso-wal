@@ -3,3 +3,8 @@ WantedBy=multi-user.target WantedBy=multi-user.target sudo apt update && sudo ap
 ′f /usr/local/go sudo tar -C /usr/local -xzf "go$ver.linux-amd64.tar.gz"
 {CELESTIA_NODENAME} >> $HOME/.bash_profile echo "export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin" >> $HOME/.bash_go to room echo "export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin" >> 
 {CELESTIA_WALLET} >> $HOME/.bash_profile source $HOME/.bash_profile sudo apt install curl tar wget clang pkg-config libssl-dev jq build-essential bsdmainutils git make ncdu -y sudo rm -r
+<img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/LilaRest/terrar/semantic-release.yml">
+	<img alt="GitHub Downloads" src="https://img.shields.io/github/downloads/LilaRest/terrar/total?color=%23ddccee">
+	<img alt="GitHub License" src="https://img.shields.io/github/license/LilaRest/terrar?color=%235588ff">
+	<img alt="Semantic-release: angular" src="https://img.shields.io/badge/semantic--release-angular-e10079?logo=semantic-release">
+</div>
